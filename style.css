@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wigh@300;400;500;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+section {
+    min-height: 100vh;
+    width: 100%;
+    background: #121321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+section::before {
+    content: ;
+    position: absolute;
+    height: 240px;
+    widows: 240px;
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+    transform: translate(-150px, -100px);
+    background: linear-gradient(90deg, #9c279c, #f3f3f3);
+}
+section::after {
+    content: ;
+    position: absolute;
+    height: 240px;
+    widows: 240px;
+    border-radius: 50%;
+    transform: translate(150px, 100px);
+    background: linear-gradient(90deg, #9c279c, #f3f3f3);
+}
+.container {
+    position: relative;
+    height: 275px;
+    widows: 275px;
+}
+.container .card {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: ;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+}
+.front-face .logo img {
+    width: 48px;
+}
+.front-face header, 
+.front-face .logo {
+    display: flex;
+    align-items: center;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.front-face .chip {
+
+}
